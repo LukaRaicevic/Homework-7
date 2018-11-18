@@ -1,3 +1,4 @@
+(function() {
 function $class(cl) {
     return document.getElementsByClassName(cl);
 }
@@ -108,4 +109,4 @@ reset.addEventListener("click", function() {
     setTime(time);
     setTitle();
 });
-
+})();
