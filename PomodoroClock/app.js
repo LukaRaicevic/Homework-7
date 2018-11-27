@@ -38,9 +38,7 @@ function addEvLisOnTab(t, elem1, elem2, elem3) {
         resetTime = t;
         setTime(t);
         changeTabBackgroundColor(elem1, elem2, elem3);
-        if(elem1.id === "pomod") {
-            hidden.style.display = "block";
-        }
+        hidden.style.display = "block";
         stopCountdown();
         setTitle();
     });
